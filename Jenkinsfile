@@ -8,7 +8,7 @@ pipeline{
         stage('Checkout Main Branch'){
             steps{
                 git url: 'https://github.com/saigolive/example-repo.git'
-                branch: 'main'
+                git branch: 'main'
             }
         }
 
